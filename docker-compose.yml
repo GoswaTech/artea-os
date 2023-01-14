@@ -1,0 +1,15 @@
+---
+version: "1.42"
+
+services:
+  3rteaOS:
+    container_name: 3rteaOS
+    image: 3rtea-os
+    build: .
+    volumes:
+      - ./src:/3rteaOS
+      - ./cache/tmp:/tmp
+    ports:
+      - "1-65535:1-65535"
+    command: '/bin/bash'
+
