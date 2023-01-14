@@ -12,7 +12,9 @@ Le système est sous debian 11. Ce choix a été fait pour permettre la disponib
 ### `apt install`
 
 **lxde** : Ce paquet sert à paramétrer l'interface graphique.
+
 **ssh** : Pour se connecter à distance.
+
 **vim** : Pour éditer les fichiers.
 
 *Installations Optionnelles :*
