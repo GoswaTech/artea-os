@@ -9,6 +9,7 @@ services:
     volumes:
       - ./src:/3rteaOS
       - ./cache:/tmp
+      - ./swish:/swish
     ports:
       - "1-65535:1-65535"
     command: '/bin/bash'

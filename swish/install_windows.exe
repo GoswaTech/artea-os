@@ -1,0 +1,6 @@
+wsl.exe --list --online
+
+wsl.exe --install kali-linux
+wsl.exe --install Ubuntu-20.04
+wsl.exe --install Debian
+
